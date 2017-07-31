@@ -5,7 +5,7 @@ This Original Source is update 5.0 version  of Multi Controller RC for Raspberry
 OpenMake will be support library funciton of RC Car Controller Software and makers can use function in file.
 ```
 
-#### We will are often update many fuction through here and Document write manual that how to use library function.
+#### We will are often update many function through here and Document write manual that how to use library function.
 
 ### Attach File Description
 

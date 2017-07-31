@@ -1,3 +1,8 @@
+#!/usr/bin/python
+# Joystick RC Car Controller
+#
+# Created by RaspberryPi Village
+#
 import sys
 import RPi.GPIO as gpio
 import time

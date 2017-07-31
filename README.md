@@ -13,7 +13,7 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 * **pwm_kbd.py** : RC Car Control by Keyboard through SSH
 * **pwm_joy_xiaomi.py** : RC Car Control by Xiaomi Bluetooth Joystick
 
-### RAS RC GPIO PIN Description 
+### RAS RC-Car RaspberryPi GPIO PIN Description
 
 * **Motor Drive** : SN754410NE 
 * **RaspberryPi GPIO**

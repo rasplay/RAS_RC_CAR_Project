@@ -2,8 +2,10 @@
 
 ```
 This Original Source is update 5.0 version  of Multi Controller RC for RaspberryPi Village.
-AND OpenMake will be support library funciton of RC Car Controller Software.
+OpenMake will be support library funciton of RC Car Controller Software and makers can use function in file.
 ```
+
+#### We will are often update many fuction through here and Document write manual that how to use library function.
 
 ### Attach File Description
 

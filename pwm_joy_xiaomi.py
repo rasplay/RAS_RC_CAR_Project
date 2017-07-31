@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Joystick RC Car Controller
+#Xiaomi Joystick RC Car Controller
 #
 # Created by RaspberryPi Village
 #

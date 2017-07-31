@@ -41,13 +41,10 @@ def Forward():
     pwm2.start(0)
 
     print "GO Forward"    
-    #GPIO.output(in1_pin, True)
-    #GPIO.output(in2_pin, False)
     GPIO.output(in3_pin, True)
     GPIO.output(in4_pin, False)
     GPIO.output(led1_pin, True)
     GPIO.output(led2_pin, False)
-    #pwm1.ChangeDutyCycle(100)
     pwm2.ChangeDutyCycle(100)
 
 def Backward():
@@ -55,13 +52,10 @@ def Backward():
     pwm2.start(0)
 
     print "GO backward"
-    #GPIO.output(in1_pin, True)
-    #GPIO.output(in2_pin, False)
     GPIO.output(in3_pin, False)
     GPIO.output(in4_pin, True)
     GPIO.output(led1_pin, False)
     GPIO.output(led2_pin, True)
-    #pwm1.ChangeDutyCycle(100)
     pwm2.ChangeDutyCycle(100)	
 
 def TurnLeft():
@@ -73,8 +67,6 @@ def TurnLeft():
     GPIO.output(in2_pin, True)
     GPIO.output(in3_pin, True)
     GPIO.output(in4_pin, False)
-    #GPIO.output(in3_pin, False)
-    #GPIO.output(in4_pin, True)
     pwm1.ChangeDutyCycle(100)
     pwm2.ChangeDutyCycle(40)
 
@@ -87,8 +79,6 @@ def TurnRight():
     GPIO.output(in2_pin, False)
     GPIO.output(in3_pin, True)
     GPIO.output(in4_pin, False)
-    #GPIO.output(in3_pin, True)
-    #GPIO.output(in4_pin, False)
     pwm1.ChangeDutyCycle(100)
     pwm2.ChangeDutyCycle(40)
 

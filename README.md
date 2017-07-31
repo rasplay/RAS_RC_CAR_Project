@@ -17,7 +17,8 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 
 * **Motor Drive** : SN754410NE 
 * **RaspberryPi GPIO**
-   - Motor A : GPIO 20, 21, 13(PWM1)
+   
+   - Motor A : GPIO 20, 21, 13(PWM1)
    - Motor B : GPIO 23, 24, 18(PWM0)
    - Front LED : 16
    - Back LED : 26

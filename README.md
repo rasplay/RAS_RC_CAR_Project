@@ -10,14 +10,14 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 
 ***
 
-### RAS RC-Car support controller bottom. 
+### RAS RC-Car support controller 
 
 * Support General USB Keyboard
 * Support General USB GAMEPAD contoroller
 * Support General USB Joystick contoroller
 * Support Bluetooth Xiaomi Joystick contoroller
 
-### Attach File Description.
+### Attach File Description
 
 * **RAS_RC_Motor_RASTA.py** : RASTA Toy RC Car Motor Control file
 * **RAS_RC_Motor_2WD.py** : 2WD RC Car Motor Control file
@@ -27,7 +27,7 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 
 ***
 
-### RAS RC-Car has been used RaspberryPi GPIO PIN bottom.
+### RAS RC-Car has been used RaspberryPi GPIO PIN
 
 * **Motor Drive** : SN754410NE 
 * **RaspberryPi GPIO**   

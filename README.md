@@ -6,11 +6,18 @@
 This Original Source is update 5.0 version  of Multi Controller RC for RaspberryPi Village.
 OpenMake will be support library funciton of RC Car Controller Software and makers can use function in file.
 ```
-#### We will are often update many function through here and Document write manual that how to use library function.
+※ We will are often update many function through here and Document write manual that how to use library function.
 
 ***
 
-### Attach File Description
+### RAS RC-Car support controller bottom. 
+
+* Support General USB Keyboard
+* Support General USB GAMEPAD contoroller
+* Support General USB Joystick contoroller
+* Support Bluetooth Xiaomi Joystick contoroller
+
+### Attach File Description.
 
 * **RAS_RC_Motor_RASTA.py** : RASTA Toy RC Car Motor Control file
 * **RAS_RC_Motor_2WD.py** : 2WD RC Car Motor Control file
@@ -20,15 +27,14 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 
 ***
 
-### RAS RC-Car RaspberryPi GPIO PIN Description
+### RAS RC-Car has been used RaspberryPi GPIO PIN bottom.
 
 * **Motor Drive** : SN754410NE 
-* **RaspberryPi GPIO**
-   
-   - Motor A : GPIO 20, 21, 13(PWM1)
-   - Motor B : GPIO 23, 24, 18(PWM0)
-   - Front LED : 16
-   - Back LED : 26
+* **RaspberryPi GPIO**   
+   - Motor A : GPIO 20, GPIO 21, GPIO 13(PWM1)
+   - Motor B : GPIO 23, GPIO 24, GPIO 18(PWM0)
+   - Front LED : GPIO 16
+   - Back LED : GPIO 26
 
 ***
    

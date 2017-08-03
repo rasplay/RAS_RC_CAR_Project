@@ -1,4 +1,5 @@
-![](https://github.com/rasplay/RAS_RC_CAR/blob/master/img/RASTA_RC_remodel2.jpg)
+<img src="https://github.com/rasplay/RAS_RC_CAR/blob/master/img/RASTA_RC_remodel2.jpg" width="800">
+<img src="https://github.com/rasplay/RAS_RC_CAR/blob/master/img/RAS_RC.jpg" width="800">
 
 ### RAS_RC_Version 5.0 Update by Multi Controller RC of RaspberryPi Village.
 

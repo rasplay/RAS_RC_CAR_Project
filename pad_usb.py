@@ -10,6 +10,8 @@ from motor import *
 
 pipe = None
 
+pwm_value = 0
+
 def main():
     global pipe
     pipe = open('/dev/input/js0','r')
@@ -19,6 +21,7 @@ def main():
 
 def readJoystick():
     action = []
+    global pwm_value
 
     while 1:
          for character in pipe.read(1):
@@ -45,8 +48,13 @@ def readJoystick():
                                          Stop()
 
                         elif action[6] == '01' and action[7] == '01': # Button
-                                        print 'Speed Change !!!'
-                                        pwm2.ChangeDutyCycle(a)
+                                print ('Speed Change !!! ')
+                                print ('befor pwm = '+ str(pwm_value))  
+                                pwm_value += 1
+                                if pwm_value > 4:
+                                    pwm_value = 0
+                                print ('current pwm = '+ str(pwm_value))
+                                pwm2.ChangeDutyCycle(pwm_value*25)
 
                         action = []
 

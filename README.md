@@ -18,6 +18,10 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 * Support General USB Joystick contoroller
 * Support Bluetooth Xiaomi Joystick contoroller
 
+### Develop Description : RAS RC CAR TEST Source 
+
+> This folder is test source add new function ago at the RAS RC CAR sources.
+
 ### Attach File Description
 
 * **RAS_RC_Motor_RASTA.py** : RASTA Toy RC Car Motor Control file

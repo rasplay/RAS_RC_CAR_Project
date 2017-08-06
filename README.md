@@ -17,6 +17,7 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 * Support General USB GAMEPAD contoroller
 * Support General USB Joystick contoroller
 * Support Bluetooth Xiaomi Joystick contoroller
+* Spport Speed Control(4 Step)
 
 ### Develop folder Description : RAS RC CAR TEST Source 
 

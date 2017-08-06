@@ -21,6 +21,7 @@ def main():
 
 def readJoystick():
     action = []
+    global pwm_value
 
     while 1:
          for character in pipe.read(1):

@@ -73,17 +73,27 @@ def readJoystick():
                                         Stop()
 
                         elif action[6] == '02' and action[7] == '02': # Right Joystick left/right
-                                num = int(action[5], 16) # Translate back into integer form
-                                if num >= 128:
-                                        print 'You moved the right joystick left to %' + percent254
-                                        Toy_TurnLeft()
-                                elif num <= 127 \
-                                and num != 0:
-                                        print 'You moved the right joystick right to %' + percent128
+                                if action[4] == 'FF' and action[5] == '7F':
+                                        print 'You pressed right on the right joystick'
                                         Toy_TurnRight()
+                                elif action[4] == '01' and action[5] == '80':
+                                        print 'You pressed left on the right joystick'
+                                        Toy_TurnLeft()
                                 else:
-                                        print 'You Stopped moving the right joystick'
+                                        print 'You released the right joystick'
                                         Stop()
+
+#                                num = int(action[5], 16) # Translate back into integer form
+#                                if num >= 128:
+#                                        print 'You moved the right joystick left to %' + percent254
+#                                        Toy_TurnLeft()
+#                                elif num <= 127 \
+#                                and num != 0:
+#                                        print 'You moved the right joystick right to %' + percent128
+#                                        Toy_TurnRight()
+#                                else:
+#                                        print 'You Stopped moving the right joystick'
+#                                        Stop()
 
                         action = []
 

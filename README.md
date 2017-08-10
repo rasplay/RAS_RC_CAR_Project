@@ -29,8 +29,8 @@ OpenMake will be support library funciton of RC Car Controller Software and make
 * **RAS_RC_Motor_2WD.py** : 2WD RC Car Motor Control file
 * **pwm_kbd.py** : RC Car Control by Keyboard through SSH
 * **pad_usb.py** : RC Car Control by USB GAMEPAD Joystick(4step speed control)
-* **pwm_joy_xiaomi.py** : RC Car Control by Xiaomi Bluetooth Joystick
-
+* ~~**pwm_joy_xiaomi.py** : RC Car Control by Xiaomi Bluetooth Joystick~~
+* **joy_xaomi.py** : RC Car Control by Xiaomi Bluetooth Joystick(4step speed control)
 ***
 
 ### RAS RC-Car has been used RaspberryPi GPIO PIN

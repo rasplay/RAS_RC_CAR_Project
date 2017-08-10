@@ -20,9 +20,9 @@ def readJoystick():
 
                 if len(action) == 8:
 
-#                        print '%s' % action
+                        print '%s' % action
 
-                        print int(str(action))
+#                        print int(str(action))
                                         
                         action = []
 

@@ -34,12 +34,6 @@ def readJoystick():
                         if percent128 == '0':
                                 percent128 = '100'
 
-#                        if action[6] == '02' : # Button
-#                                if action[4] == '01' or '09':
-#                                        print 'You pressed button: ' + action[7]
-#                                else:
-#                                        print 'You released button: ' + action[7]
-
                         if action[6] == '02' and action[7] == '08': # D-pad left/right
                                 if action[4] == 'FF' and action[5] == '7F':
                                         print 'You pressed right on the D-pad'
@@ -92,19 +86,6 @@ def readJoystick():
                                     pwm_value = 0
                                 print ('current pwm = '+ str(pwm_value))
                                 pwm2.ChangeDutyCycle(pwm_value*25)
-
-
-#                                num = int(action[5], 16) # Translate back into integer form
-#                                if num >= 128:
-#                                        print 'You moved the right joystick left to %' + percent254
-#                                        Toy_TurnLeft()
-#                                elif num <= 127 \
-#                                and num != 0:
-#                                        print 'You moved the right joystick right to %' + percent128
-#                                        Toy_TurnRight()
-#                                else:
-#                                        print 'You Stopped moving the right joystick'
-#                                        Stop()
 
                         action = []
  

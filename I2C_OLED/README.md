@@ -12,9 +12,11 @@ MIT license, all text above must be included in any redistribution
 
 # RAS RC Car Project 
 
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/017/603/large1024/raspberry_pi_RaspberryPi_I2C_bb.png" width="700">
+<img src="https://github.com/rasplay/RAS_RC_CAR_Project/blob/master/img/I2C_OLED_3.jpg" width="700">
 
 ## How To Wiring with RapsberryPi GPIO
+
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/017/603/large1024/raspberry_pi_RaspberryPi_I2C_bb.png" width="700">
 
 * Connect display ground to Raspberry Pi ground (black wire).
 * Connect display VIN to Raspberry Pi 3.3 volt (red wire).

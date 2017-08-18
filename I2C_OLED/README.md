@@ -53,11 +53,12 @@ $ sudo apt-get install python-imaging python-smbus
 $ sudo apt-get install python-imaging python-smbus
 ```
 
-### Enable I2C on GUI MODE with I2C Adress check
+### Enable I2C on GUI MODE
 
 <img src="https://github.com/rasplay/RAS_RC_CAR_Project/blob/master/img/I2C_OLED_1.png" width="700">
 <img src="https://github.com/rasplay/RAS_RC_CAR_Project/blob/master/img/I2C_OLED_2.png" width="700">
 
+### I2C Adress check
 
 ```
 $ sudo i2cdetect -y 1

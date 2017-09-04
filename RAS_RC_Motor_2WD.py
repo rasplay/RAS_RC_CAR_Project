@@ -29,7 +29,7 @@ GPIO.setup(in4_pin, GPIO.OUT)
 pwm1 = GPIO.PWM(enable_pin1, ENGINE_FREQ1)
 pwm2 = GPIO.PWM(enable_pin2, ENGINE_FREQ2)
 
-def Forward():
+def 2WD_Forward():
 
     pwm1.start(0)
     pwm2.start(0)
@@ -42,7 +42,7 @@ def Forward():
     pwm1.ChangeDutyCycle(30)
     pwm2.ChangeDutyCycle(30)
 
-def Backward():
+def 2WD_Backward():
     pwm1.start(0)
     pwm2.start(0)
 
@@ -55,7 +55,7 @@ def Backward():
     pwm1.ChangeDutyCycle(30)
     pwm2.ChangeDutyCycle(30)	
 
-def TurnLeft():
+def 2WD_TurnLeft():
     pwm1.start(0)
     pwm2.start(0)
 
@@ -68,7 +68,7 @@ def TurnLeft():
     pwm1.ChangeDutyCycle(100)
     pwm2.ChangeDutyCycle(10)
 
-def TurnRight():
+def 2WD_TurnRight():
     pwm1.start(0)
     pwm2.start(0)
 
@@ -81,6 +81,6 @@ def TurnRight():
     pwm1.ChangeDutyCycle(10)
     pwm2.ChangeDutyCycle(100)
 
-def Stop():
+def 2WD_Stop():
     pwm1.start(0)
     pwm2.start(0)

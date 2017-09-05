@@ -2,34 +2,34 @@
 # -*- coding: UTF-8 -*-
 import curses
 import RPi.GPIO as GPIO
-from motor import *
+from RAS_RC_Motor import *
 
 #set GP
 
 # Get the curses window, turn off echoing of keyboard to screen, turn on
 # instant (no waiting) key response, and use special values for cursor keys
 screen = curses.initscr()
-curses.noecho() 
+curses.noecho()
 curses.cbreak()
 screen.keypad(True)
 
 try:
-        while True:   
+        while True:
             char = screen.getch()
             if char == ord('q'):
                break
             elif char == ord('i'):
-                 Forward()
+                 Toy_Forward()
             elif char == ord('k'):
-                 Backward()
+                 Toy_Backward()
             elif char == ord('l'):
-                 TurnRight()
+                 Toy_TurnRight()
             elif char == ord('j'):
-                 TurnLeft()
+                 Toy_TurnLeft()
             elif char == ord('s'):
                  Stop()
 #            elif char == 10:
-  
+
 finally:
     #Close down curses properly, inc turn echo back on!
     curses.nocbreak(); screen.keypad(0); curses.echo()

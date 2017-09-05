@@ -6,7 +6,7 @@
 import sys
 import RPi.GPIO as gpio
 import time
-from motor import *
+from RAS_RC_Motor import *
 
 pipe = None
 
@@ -49,7 +49,7 @@ def readJoystick():
 
                         elif action[6] == '01' and action[7] == '01': # Button
                                 print ('Speed Change !!! ')
-                                print ('befor pwm = '+ str(pwm_value))  
+                                print ('befor pwm = '+ str(pwm_value))
                                 pwm_value += 1
                                 if pwm_value > 4:
                                     pwm_value = 0
@@ -60,4 +60,3 @@ def readJoystick():
 
 if __name__ == "__main__":
     main()
-
